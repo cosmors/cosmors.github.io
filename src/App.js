@@ -11,7 +11,7 @@ function App() {
       <Header />
       <BrowserRouter>
         <Switch>
-          <Route exact path="/cosmors.github.io/" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>
