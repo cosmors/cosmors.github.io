@@ -1,0 +1,10 @@
+.App {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.not-found {
+  font-size: xx-large;
+  font-weight: 900;
+}
