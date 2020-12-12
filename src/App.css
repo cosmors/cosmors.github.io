@@ -24,7 +24,7 @@
   width: 100%;
 }
 
-.home, .about, .project, .contact, .page-not-founf {
+.home, .about, .project, .contact, .page-not-found {
   padding-top: 85px;
   position: relative;
 }
@@ -64,7 +64,7 @@
   padding: 0 10px;
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 660px) {
   .header {
     align-items: center;
     justify-content: space-between;

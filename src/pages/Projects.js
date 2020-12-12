@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Header from '../components/Header';
 function Projects() {
   return (
-    <div>
-      <h1>Project Page</h1>
+    <div className="project">
+      <Header />
+      <h1>Projects Page</h1>
     </div>
   )
 }
