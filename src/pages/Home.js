@@ -1,11 +1,15 @@
 import React from 'react';
 import Header from '../components/Header';
 import perfil from '../img/perfil.jpg';
+import frontend from '../img/frontend.png';
 
 function Home() {
   return (
     <div className="home">
       <Header />
+      <div className="vertical-img">
+        <img src={frontend} />
+      </div>
       <div className="split"><br />
         <div className="centered left">
           <img

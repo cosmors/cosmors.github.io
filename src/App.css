@@ -9,6 +9,7 @@
   align-items: center;
   background-color: #464954;
   display: flex;
+  height: 9%;
   justify-content: center;
   list-style: none;
   overflow: hidden;
@@ -42,12 +43,29 @@
 }
 
 .menu a {
-  display: block;
   color: #F9F9F9;
-  text-align: center;
-  padding: 15px 15px 5px;
-  text-decoration: none;
   font-size: 17px;
+  padding: 15px 15px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #F9F9F9;
+  color: #464954;
+  border-radius: 25px;
+  height: 35px;
+}
+
+.menu li {
+  align-items: center;
+  border: #1FA791 1px solid;
+  border-radius: 25px;
+  display: flex;
+  font-weight: 900;
+  justify-content: center;
+  height: 35px;
+  margin: 2px 5px;
 }
 
 .nave {
@@ -64,24 +82,9 @@
   color: #1FA791;
 }
 
-.container {
-  background-color: #1FA791;
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  color: black;
-  height: 100%;
-  position: relative;
-  text-align: center;
+.centered {
   top: 0;
   z-index: 2;
-}
-
-.centered {
-  height: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
 }
 
 .left {
@@ -90,10 +93,10 @@
 }
 
 .right {
-  background-color: #1FA791;
+  background-color: #12a78e;
   color: #F9F9F9;
   font-size: larger;
-  padding: 16% 4%;
+  padding: 6% 4%;
   right: 0;
   text-align: justify;
   text-indent: 2rem;
@@ -103,6 +106,26 @@
 .perfil {
   display: none;
 }
+
+.split {
+  align-items: center;
+  background-size: contain;
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  position: relative;
+  width: 400px;
+}
+
+.vertical-img {
+  height: 300px;
+  left: 0;
+  object-position: left;
+  position: fixed;
+  object-position: left;
+  top: 0;
+  z-index: 2;
+  }
 
 @media screen and (min-width: 660px) {
   .header {
@@ -132,17 +155,18 @@
     z-index: 1;
   }
 
-  .right {
-    width: 50%;
+  .profile {
+    height: 40%;
+    width: 100%;
   }
 
-  .left {
-    width: 50%;
-  }
 }
 
 @media screen and (min-width: 900px) {
-
+  .left {
+    width: 30%;
+  }
+  
   .perfil {
     display: block;
   }
