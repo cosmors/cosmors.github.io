@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/cosmors.github.io/static/css/main.2cec48b7.chunk.css",
-    "main.js": "/cosmors.github.io/static/js/main.f24f2b97.chunk.js",
-    "main.js.map": "/cosmors.github.io/static/js/main.f24f2b97.chunk.js.map",
+    "main.css": "/cosmors.github.io/static/css/main.6876f2a1.chunk.css",
+    "main.js": "/cosmors.github.io/static/js/main.7e3a3c8d.chunk.js",
+    "main.js.map": "/cosmors.github.io/static/js/main.7e3a3c8d.chunk.js.map",
     "runtime-main.js": "/cosmors.github.io/static/js/runtime-main.3ab294ef.js",
     "runtime-main.js.map": "/cosmors.github.io/static/js/runtime-main.3ab294ef.js.map",
     "static/js/2.52cb666e.chunk.js": "/cosmors.github.io/static/js/2.52cb666e.chunk.js",
     "static/js/2.52cb666e.chunk.js.map": "/cosmors.github.io/static/js/2.52cb666e.chunk.js.map",
     "index.html": "/cosmors.github.io/index.html",
-    "static/css/main.2cec48b7.chunk.css.map": "/cosmors.github.io/static/css/main.2cec48b7.chunk.css.map",
+    "static/css/main.6876f2a1.chunk.css.map": "/cosmors.github.io/static/css/main.6876f2a1.chunk.css.map",
     "static/js/2.52cb666e.chunk.js.LICENSE.txt": "/cosmors.github.io/static/js/2.52cb666e.chunk.js.LICENSE.txt",
+    "static/media/frontend.9000282b.png": "/cosmors.github.io/static/media/frontend.9000282b.png",
     "static/media/perfil.e386d773.jpg": "/cosmors.github.io/static/media/perfil.e386d773.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3ab294ef.js",
     "static/js/2.52cb666e.chunk.js",
-    "static/css/main.2cec48b7.chunk.css",
-    "static/js/main.f24f2b97.chunk.js"
+    "static/css/main.6876f2a1.chunk.css",
+    "static/js/main.7e3a3c8d.chunk.js"
   ]
 }
