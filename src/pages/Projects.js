@@ -4,7 +4,9 @@ function Projects() {
   return (
     <div className="project">
       <Header />
-      <h1>Projects Page</h1>
+      <div className="container">
+        <h1>Projects Page</h1>
+      </div>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import { Home, About, Projects, Contact, NotFound } from './pages';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />

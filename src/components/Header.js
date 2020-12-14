@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <reader className="header">
-        <h1 className="title">Cosmo Rodrigues</h1>
+        <h1 className="title">Full Stack <span>Developer</span></h1>
         <nav className="nav">
           <ul className="menu">
             <li><Link to="/">Home</Link></li>

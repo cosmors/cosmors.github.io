@@ -1,20 +1,13 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.App {
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-  position: relative;
-  text-align: center;
-}
-
 .header {
   align-items: center;
-  background-color: #333;
+  background-color: #464954;
   display: flex;
   justify-content: center;
   list-style: none;
@@ -22,19 +15,21 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .home, .about, .project, .contact, .page-not-found {
-  padding-top: 85px;
+  padding-top: 70px;
   position: relative;
 }
 
 .footer {
   overflow: hidden;
-  background-color: #333;
+  background-color: #464954;
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .menu {
@@ -48,7 +43,7 @@
 
 .menu a {
   display: block;
-  color: #f2f2f2;
+  color: #F9F9F9;
   text-align: center;
   padding: 15px 15px 5px;
   text-decoration: none;
@@ -60,8 +55,53 @@
 }
 
 .title {
+  color: #F9F9F9;
   display: none;
   padding: 0 10px;
+}
+
+.title span {
+  color: #1FA791;
+}
+
+.container {
+  background-color: #1FA791;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  color: black;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  top: 0;
+  z-index: 2;
+}
+
+.centered {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #F9F9F9;
+}
+
+.right {
+  background-color: #1FA791;
+  color: #F9F9F9;
+  font-size: larger;
+  padding: 16% 4%;
+  right: 0;
+  text-align: justify;
+  text-indent: 2rem;
+  width: 100%;
+}
+
+.perfil {
+  display: none;
 }
 
 @media screen and (min-width: 660px) {
@@ -77,5 +117,33 @@
   .title {
     display: initial;
     padding: 15px 0 15px 40px;
+  }
+
+  .home, .about, .project, .contact, .page-not-found {
+    padding-top: 79px;
+  }
+
+  .perfil {
+    clip-path: ellipse(50% 50% at 50% 50%);
+    left: 3vh;
+    max-width: 350px;
+    position: fixed;
+    top: 15vh;
+    z-index: 1;
+  }
+
+  .right {
+    width: 50%;
+  }
+
+  .left {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .perfil {
+    display: block;
   }
 }

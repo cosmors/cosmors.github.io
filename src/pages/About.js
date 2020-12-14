@@ -6,7 +6,9 @@ export class About extends Component {
     return (
       <div className="about">
         <Header />
-        <h1>About Page</h1>
+        <div className="container">
+          <h1>About Page</h1>
+        </div>
       </div>
     )
   }
