@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/cosmors.github.io/static/css/main.7570cd02.chunk.css",
-    "main.js": "/cosmors.github.io/static/js/main.222c15a0.chunk.js",
-    "main.js.map": "/cosmors.github.io/static/js/main.222c15a0.chunk.js.map",
+    "main.css": "/cosmors.github.io/static/css/main.4ecf584c.chunk.css",
+    "main.js": "/cosmors.github.io/static/js/main.638ece26.chunk.js",
+    "main.js.map": "/cosmors.github.io/static/js/main.638ece26.chunk.js.map",
     "runtime-main.js": "/cosmors.github.io/static/js/runtime-main.3ab294ef.js",
     "runtime-main.js.map": "/cosmors.github.io/static/js/runtime-main.3ab294ef.js.map",
     "static/js/2.52cb666e.chunk.js": "/cosmors.github.io/static/js/2.52cb666e.chunk.js",
     "static/js/2.52cb666e.chunk.js.map": "/cosmors.github.io/static/js/2.52cb666e.chunk.js.map",
     "index.html": "/cosmors.github.io/index.html",
-    "static/css/main.7570cd02.chunk.css.map": "/cosmors.github.io/static/css/main.7570cd02.chunk.css.map",
+    "static/css/main.4ecf584c.chunk.css.map": "/cosmors.github.io/static/css/main.4ecf584c.chunk.css.map",
     "static/js/2.52cb666e.chunk.js.LICENSE.txt": "/cosmors.github.io/static/js/2.52cb666e.chunk.js.LICENSE.txt",
     "static/media/apaixonado.8c238b4e.jpg": "/cosmors.github.io/static/media/apaixonado.8c238b4e.jpg",
     "static/media/frontend.9000282b.png": "/cosmors.github.io/static/media/frontend.9000282b.png",
     "static/media/guerreiro.7faa4757.jpg": "/cosmors.github.io/static/media/guerreiro.7faa4757.jpg",
+    "static/media/movie-library.1f9ef845.png": "/cosmors.github.io/static/media/movie-library.1f9ef845.png",
     "static/media/musico.2563673c.jpg": "/cosmors.github.io/static/media/musico.2563673c.jpg",
+    "static/media/online-storage.33998888.png": "/cosmors.github.io/static/media/online-storage.33998888.png",
     "static/media/paizao.0a5b6968.JPG": "/cosmors.github.io/static/media/paizao.0a5b6968.JPG",
     "static/media/perfil.e386d773.jpg": "/cosmors.github.io/static/media/perfil.e386d773.jpg",
+    "static/media/tic-tac-toe.8b5d73fd.png": "/cosmors.github.io/static/media/tic-tac-toe.8b5d73fd.png",
+    "static/media/to-do.47d58463.png": "/cosmors.github.io/static/media/to-do.47d58463.png",
     "static/media/trilheiro.9eb680bb.jpg": "/cosmors.github.io/static/media/trilheiro.9eb680bb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3ab294ef.js",
     "static/js/2.52cb666e.chunk.js",
-    "static/css/main.7570cd02.chunk.css",
-    "static/js/main.222c15a0.chunk.js"
+    "static/css/main.4ecf584c.chunk.css",
+    "static/js/main.638ece26.chunk.js"
   ]
 }
