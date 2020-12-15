@@ -20,8 +20,43 @@
 }
 
 .home, .about, .project, .contact, .page-not-found {
+  background-color: #1FA791;
   padding-top: 70px;
   position: relative;
+}
+
+.about {
+  width: 100%;
+}
+
+.about .container {
+  display: flex;
+  flex-flow: column;
+}
+
+.about img {
+  border-radius: 30px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+  max-width: 300px;
+}
+
+.about .container section {
+  margin: 2% 3%;
+}
+
+.about .container section:nth-child(1) {
+  align-self: flex-end;
+  display: block;
+}
+
+.about .container section:nth-child(3) {
+  align-self: flex-end;
+  display: block;
+}
+
+.about .container section:nth-child(5) {
+  align-self: flex-end;
+  display: block;
 }
 
 .footer {
