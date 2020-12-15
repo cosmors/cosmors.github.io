@@ -20,7 +20,11 @@
 }
 
 .home, .about, .project, .contact, .page-not-found {
+  align-items: center;
   background-color: #1FA791;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
   padding-top: 70px;
   position: relative;
 }
@@ -104,6 +108,12 @@
 
 .nave {
   margin: 0 auto;
+}
+
+.project img {
+  border-radius: 25px;
+  margin: 4%;
+  max-width: 70%;
 }
 
 .title {
